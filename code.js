@@ -1,6 +1,6 @@
 console.log("Loading...");
 let livObj;
- await fetch("https://raw.githubusercontent.com/Spice9/Geofs-Multiliveries/main/dependencies/liveries.json")
+ await fetch("https://github.com/B-don-don/updated-liveries/blob/main/new%20liveies")
  .then(res => res.json())
  .then(data => livObj = data) 
 
