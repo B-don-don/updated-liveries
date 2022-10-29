@@ -642,6 +642,16 @@
   "livery": "https://raw.githubusercontent.com/Spice9/stuff2/main/UTair_737-8.png",
   "mptx": "https://raw.githubusercontent.com/Spice9/stuff2/main/UTair_737-8.png"
   },
+  	{
+  "name": "Boeing 737-800 (Alaska Airlines 'Salmon Thirty Salmon') by B-don-don",
+  "livery": "https://user-images.githubusercontent.com/114553146/198856537-40f43f73-fd8d-446e-a499-cb307aae9910.jpg",
+  "mptx": "https://user-images.githubusercontent.com/114553146/198856537-40f43f73-fd8d-446e-a499-cb307aae9910.jpg"
+  },
+  	{
+  "name": "Boeing 737-800 (TUIfly 'Haribo GoldbAIR') by B-don-don",
+  "livery": "https://user-images.githubusercontent.com/114553146/198713888-567c82c3-e1bc-4287-8606-4bde3110bbe7.jpg",
+  "mptx": "https://user-images.githubusercontent.com/114553146/198713888-567c82c3-e1bc-4287-8606-4bde3110bbe7.jpg"
+  },
                 { 
   "name": "Boeing P8 Poseidon (US Navy)",
   "livery": "1.1",
