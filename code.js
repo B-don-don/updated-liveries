@@ -149,31 +149,5 @@ function sBa() {
 displayLiveries(false);
 mpRefresh = setInterval(function(){  
 updateMultiplayer();
-}, 5000)
-document.querySelectorAll('[data-aircraft]').forEach(function(e){
-   var elemName = e.outerText;
-    if (elemName.includes("Boeing 737-800 [Spice9] (by Spice_9)") || elemName.includes("Airbus a320neo (Iberia) (by Spice_9)") || elemName.includes("Boeing 737 Max 8 (TUI) (by Spice_9)") || elemName.includes("Boeing 787-10 Dreamliner (Etihad) (by Spice_9)") || elemName.includes("Airbus A319 (Finnair)  (by GT-VRA)")) {
-       e.innerHTML = e.innerHTML + " [Multiliveries Frame]" 
-    }
-});
-console.log("Loaded!");
-let contributors;
-await fetch("https://raw.githubusercontent.com/Spice9/Geofs-Multiliveries/main/dependencies/contributors.txt")
-.then(res => res.json())
- .then(data => contributors = data)
-let message = ""
-setTimeout(function(){
-  console.log("Code by Spice9 and AriakimTaiyo, livery contributions by:");
-contributors.forEach(function(e){
-  if (message === "") {
-    message = message + e
-  } else {
-    if (contributors[contributors.length - 1] === e) {
-      message = message + ", and " + e;
-    } else {
-      message = message + ", " + e
-    }
-  }
-})
 console.log(message)
 }, 1000)
