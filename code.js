@@ -1,6 +1,6 @@
 console.log("Loading...");
 let livObj;
- await fetch("https://gist.githubusercontent.com/B-don-don/dc414c3d2b96917743c6cec7c7fb51cb/raw/304380b49f638eea0c6e0e23bf1fd4ede0e2e8e5/deeznuts")
+ await fetch("https://gist.githubusercontent.com/B-don-don/dc414c3d2b96917743c6cec7c7fb51cb/raw/77b5ff2bd61ae6d09de5ed238aeaff3b8229d11b/deeznuts")
  .then(res => res.json())
  .then(data => livObj = data) 
 
