@@ -28,7 +28,7 @@ async function init(){
     //Load liveries
 
 
-    await fetch("https://raw.githubusercontent.com/B-don-don/updated-liveries/main/747-8.jpg").then(res => res.json()).then(data => liveryobj = data)
+    await fetch("https://raw.githubusercontent.com/B-don-don/updated-liveries/main/plane.js").then(res => res.json()).then(data => liveryobj = data)
 
 
     //remove original buttons
